@@ -11,4 +11,4 @@ The unresolved inclusions seem to be false warnings issued by Eclipse; they can 
 
 <img width="1116" alt="image" src="https://user-images.githubusercontent.com/51378175/58922227-57a82100-873a-11e9-8d74-746aeb4e98a8.png">
 
-(This example is named "GEANT4-MinimalWorkingExample2WithEclipseIDE" because the previous one "GEANT4-BareBonesExampleWithEclipseIDE" should be thought of as synonymous with "GEANT4-BareBonesExampleWithEclipseIDE").
+(This example is named "GEANT4-MinimalWorkingExample2WithEclipseIDE" because the previous one "GEANT4-BareBonesExampleWithEclipseIDE" should be thought of as synonymous with "GEANT4-MinimalWorkingExample1WithEclipseIDE").
