@@ -9,6 +9,6 @@ The unresolved inclusions seem to be false warnings issued by Eclipse; they can 
 
 <img width="1097" alt="image" src="https://user-images.githubusercontent.com/51378175/58921798-8e7d3780-8738-11e9-9ad6-d00ee86b7a00.png">
 
+<img width="1116" alt="image" src="https://user-images.githubusercontent.com/51378175/58922227-57a82100-873a-11e9-8d74-746aeb4e98a8.png">
 
-(To prevent any possible naming confusion, think of the previous example name "GEANT4-BareBonesExampleWithEclipseIDE" as synonymous with "GEANT4-MinimalWorkingExample1WithEclipseIDE"; that's why this present example is called "GEANT4-MinimalWorkingExample2WithEclipseIDE".)
-
+(This example is named "GEANT4-MinimalWorkingExample2WithEclipseIDE" because the previous one "GEANT4-BareBonesExampleWithEclipseIDE" should be thought of as synonymous with "GEANT4-BareBonesExampleWithEclipseIDE").
