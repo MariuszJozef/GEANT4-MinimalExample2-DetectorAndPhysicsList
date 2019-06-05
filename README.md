@@ -5,7 +5,7 @@ The unresolved inclusions seem to be false warnings issued by Eclipse; they can 
 
 <img width="1020" alt="image" src="https://user-images.githubusercontent.com/51378175/58921484-46114a00-8737-11e9-8ea4-68cb8bd4c0e3.png">
 
-![](MinimalWorkingExample2_beamOn.gif)
+![/run/beamOn demo](GEANT4-MinimalWorkingExample2_beamOn.gif)
 
 <img width="1293" alt="image" src="https://user-images.githubusercontent.com/51378175/58921711-2af30a00-8738-11e9-9cd7-9e0482150f81.png">
 
