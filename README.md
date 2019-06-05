@@ -1,4 +1,4 @@
-# GEANT4-MinimalWorkingExample2WithEclipseIDE
+# GEANT4-MinimalWorkingExample2-DetectorClassEtc
 This builds on top of the previous example "GEANT4-BareBonesExampleWithEclipseIDE" by adding the three essential but minimal classes: DetectorConstruction, PhysicsList, PrimaryGeneratorAction. The simulation lab is a cuboid filled with air; electrons are fired off in somewhat randomised directions and are propagated without any interactions. For now some values like position, size are hardcoded. Even particle type and energy cannot be adjusted at runtime; this will be remedied in the next example.
 
 The unresolved inclusions seem to be false warnings issued by Eclipse; they can be safely ignored. Excuse also some code  indenting issues in MyDetectorConstruction.cc whilst pushing from Eclipse to GitHub and my file suffix inconsistency (.cpp and .cc).
@@ -11,4 +11,4 @@ The unresolved inclusions seem to be false warnings issued by Eclipse; they can 
 
 <img width="1116" alt="image" src="https://user-images.githubusercontent.com/51378175/58922227-57a82100-873a-11e9-8d74-746aeb4e98a8.png">
 
-(This example is named "GEANT4-MinimalWorkingExample2WithEclipseIDE" because the previous one "GEANT4-BareBonesExampleWithEclipseIDE" should be thought of as synonymous with "GEANT4-MinimalWorkingExample1WithEclipseIDE").
+(This example is named "GEANT4-MinimalWorkingExample2-DetectorClassEtc" because the previous one "GEANT4-BareBonesExampleWithEclipseIDE" should be thought of as synonymous with "GEANT4-MinimalWorkingExample1WithEclipseIDE").
