@@ -7,8 +7,6 @@ The unresolved inclusions seem to be false warnings issued by Eclipse; they can 
 
 ![/run/beamOn demo](GEANT4-MinimalWorkingExample2_beamOn.gif)
 
-<img width="1293" alt="image" src="https://user-images.githubusercontent.com/51378175/58921711-2af30a00-8738-11e9-9cd7-9e0482150f81.png">
-
 <img width="1097" alt="image" src="https://user-images.githubusercontent.com/51378175/58921798-8e7d3780-8738-11e9-9ad6-d00ee86b7a00.png">
 
 <img width="1116" alt="image" src="https://user-images.githubusercontent.com/51378175/58922227-57a82100-873a-11e9-8d74-746aeb4e98a8.png">
