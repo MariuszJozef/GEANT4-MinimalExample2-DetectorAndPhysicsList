@@ -24,10 +24,10 @@ public:
 
 private:
 	G4ThreeVector halfLabSize;
-	G4Box *solidLab = 0;
-	G4LogicalVolume *logicalLab = 0;
-	G4VPhysicalVolume *physicalLab = 0;
-	G4Material *labMaterial = 0;
+	G4Box *solidLab = nullptr;
+	G4LogicalVolume *logicalLab = nullptr;
+	G4VPhysicalVolume *physicalLab = nullptr;
+	G4Material *labMaterial = nullptr;
 
 	void DefineMaterials();
 	G4VPhysicalVolume* ConstructDetector();
