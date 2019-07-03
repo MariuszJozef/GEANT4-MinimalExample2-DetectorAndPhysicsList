@@ -7,7 +7,7 @@ The unresolved inclusions seem to be false warnings issued by Eclipse; they can 
 
 <img width="1324" alt="image" src="https://user-images.githubusercontent.com/51378175/60555016-c200b100-9d3a-11e9-8faf-9d0eaeb82d8c.png">
 
-<img width="1019" alt="image" src="https://user-images.githubusercontent.com/51378175/60554258-1b66e100-9d37-11e9-9e61-ccd6fd5799d1.png">
+<img width="1325" alt="image" src="https://user-images.githubusercontent.com/51378175/60555411-f4131280-9d3c-11e9-8dc3-94250e7af6b7.png">
 
 
 ![/run/beamOn demo](GEANT4-MinimalWorkingExample2_beamOn.gif)
