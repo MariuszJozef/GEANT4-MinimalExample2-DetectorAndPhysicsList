@@ -1,17 +1,15 @@
 # GEANT4-MinimalExample2-DetectorAndPhysicsList
 This builds on top of the previous example by adding the three essential (though minimal) classes: DetectorConstruction, PhysicsList, PrimaryGeneratorAction. The simulation lab is a cuboid filled with air; electrons are fired off in somewhat randomised directions and are propagated without any interactions. For now some values like electron gun position and lab size are hardcoded; this will be remedied in the next example.
 
-The unresolved inclusions seem to be false warnings issued by Eclipse; they can be safely ignored. Excuse also some code  indenting issues in MyDetectorConstruction.cc whilst pushing from Eclipse to GitHub and my file suffix inconsistency (.cpp and .cc).
+Excuse some code  indenting issues in MyDetectorConstruction.cc whilst pushing from Eclipse to GitHub and my file suffix inconsistency (.cpp and .cc).
+
+The warnings "unresolved inclusion" of header files can be rectified as follows: right-click on the project > Properties > C/C++ General > Paths and Symbols > Includes > Add ...
 
 <img width="1019" alt="image" src="https://user-images.githubusercontent.com/51378175/60554578-6503fb80-9d38-11e9-90eb-494cc0e31d58.png">
-
-<img width="1324" alt="image" src="https://user-images.githubusercontent.com/51378175/60555016-c200b100-9d3a-11e9-8faf-9d0eaeb82d8c.png">
 
 <img width="1325" alt="image" src="https://user-images.githubusercontent.com/51378175/60555411-f4131280-9d3c-11e9-8dc3-94250e7af6b7.png">
 
 <img width="1028" alt="image" src="https://user-images.githubusercontent.com/51378175/60555642-1c4f4100-9d3e-11e9-8a17-1dfa455d6cf5.png">
-
-Right-click on the project > Properties > C/C++ General > Paths and Symbols > Includes
 
 ![/run/beamOn demo](GEANT4-MinimalWorkingExample2_beamOn.gif)
 
