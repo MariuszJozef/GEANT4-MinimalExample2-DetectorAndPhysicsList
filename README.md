@@ -9,6 +9,9 @@ The unresolved inclusions seem to be false warnings issued by Eclipse; they can 
 
 <img width="1325" alt="image" src="https://user-images.githubusercontent.com/51378175/60555411-f4131280-9d3c-11e9-8dc3-94250e7af6b7.png">
 
+<img width="1028" alt="image" src="https://user-images.githubusercontent.com/51378175/60555642-1c4f4100-9d3e-11e9-8a17-1dfa455d6cf5.png">
+
+Right-click on the project > Properties > C/C++ General > Paths and Symbols > Includes
 
 ![/run/beamOn demo](GEANT4-MinimalWorkingExample2_beamOn.gif)
 
