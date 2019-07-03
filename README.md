@@ -3,13 +3,11 @@ This builds on top of the previous example by adding the three essential (though
 
 Excuse some code  indenting issues in MyDetectorConstruction.cc whilst pushing from Eclipse to GitHub and my file suffix inconsistency (.cpp and .cc).
 
-The warnings "unresolved inclusion" of header files can be rectified as follows: right-click on the project > Properties > C/C++ General > Paths and Symbols > Includes > Add ...
+The warnings "unresolved inclusion" of header files can be rectified specifying the path to GEANT4 header files as follows: right-click on the project > Properties > C/C++ General > Paths and Symbols > Includes > Add ...
 
 <img width="1019" alt="image" src="https://user-images.githubusercontent.com/51378175/60554578-6503fb80-9d38-11e9-90eb-494cc0e31d58.png">
 
 <img width="1325" alt="image" src="https://user-images.githubusercontent.com/51378175/60555411-f4131280-9d3c-11e9-8dc3-94250e7af6b7.png">
-
-<img width="1028" alt="image" src="https://user-images.githubusercontent.com/51378175/60555642-1c4f4100-9d3e-11e9-8a17-1dfa455d6cf5.png">
 
 ![/run/beamOn demo](GEANT4-MinimalWorkingExample2_beamOn.gif)
 
