@@ -3,16 +3,9 @@ This builds on top of the previous example by adding the three essential (though
 
 The unresolved inclusions seem to be false warnings issued by Eclipse; they can be safely ignored. Excuse also some code  indenting issues in MyDetectorConstruction.cc whilst pushing from Eclipse to GitHub and my file suffix inconsistency (.cpp and .cc).
 
-<img width="1020" alt="image" src="https://user-images.githubusercontent.com/51378175/58921484-46114a00-8737-11e9-8ea4-68cb8bd4c0e3.png">
-
 <img width="1019" alt="image" src="https://user-images.githubusercontent.com/51378175/60554578-6503fb80-9d38-11e9-90eb-494cc0e31d58.png">
 
 <img width="1324" alt="image" src="https://user-images.githubusercontent.com/51378175/60555016-c200b100-9d3a-11e9-8faf-9d0eaeb82d8c.png">
-
-<img width="1325" alt="image" src="https://user-images.githubusercontent.com/51378175/60555235-08a2db00-9d3c-11e9-9839-bb9dcd2e8841.png">
-
-<img width="1028" alt="image" src="https://user-images.githubusercontent.com/51378175/60555147-90d4b080-9d3b-11e9-847d-309b53a2ac82.png">
-
 
 <img width="1019" alt="image" src="https://user-images.githubusercontent.com/51378175/60554258-1b66e100-9d37-11e9-9e61-ccd6fd5799d1.png">
 
