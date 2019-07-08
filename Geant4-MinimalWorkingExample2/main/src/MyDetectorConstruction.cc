@@ -43,11 +43,11 @@ G4VPhysicalVolume* MyDetectorConstruction::ConstructDetector()
 									labMaterial, //its material
 									"Lab");      //its name
 
-	physicalLab = new G4PVPlacement(0,   			 //no rotation
+	physicalLab = new G4PVPlacement(nullptr,   			 //no rotation
 									G4ThreeVector(), //at (0,0,0)
 									logicalLab,      //its logical volume
 									"Lab",           //its name
-									0, //NULL,       //its mother volume
+									nullptr,       //its mother volume
 									false,           //no boolean operation
 									0);              //copy number
 
