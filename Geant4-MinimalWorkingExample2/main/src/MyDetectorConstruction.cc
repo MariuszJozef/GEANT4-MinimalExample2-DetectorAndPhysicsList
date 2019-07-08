@@ -3,17 +3,19 @@
 #include "G4VPhysicalVolume.hh"
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
+#include "G4Box.hh"
 
 #include "G4NistManager.hh"
 #include "G4VisAttributes.hh"
 
 MyDetectorConstruction::MyDetectorConstruction()
-: G4VUserDetectorConstruction()
+:
+G4VUserDetectorConstruction(),
+halfLabSize(G4ThreeVector(5*cm, 6*cm, 7*cm))
 {
 	// Be careful of this hard-coded value, position of particle gun in
 	// MyPrimaryGeneratorAction.cc
 	// is also hard-coded and must be within lab dimensions.
-	halfLabSize = G4ThreeVector(5*cm, 6*cm, 7*cm);
 }
 
 MyDetectorConstruction::~MyDetectorConstruction() {}
@@ -34,8 +36,8 @@ void MyDetectorConstruction::DefineMaterials()
 
 G4VPhysicalVolume* MyDetectorConstruction::ConstructDetector()
 {
-	solidLab = new G4Box("Lab",          //its name
-						halfLabSize.x(), halfLabSize.y(), halfLabSize.z());	//its size
+	solidLab = new G4Box("Lab",          // name
+						halfLabSize.x(), halfLabSize.y(), halfLabSize.z());
 
 	logicalLab = new G4LogicalVolume(solidLab,
 									labMaterial, //its material

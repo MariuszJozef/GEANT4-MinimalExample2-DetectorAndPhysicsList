@@ -17,12 +17,12 @@ public:
 	void GeneratePrimaries(G4Event* anEvent);
 
 private:
-	G4ParticleGun *particleGun;
-	G4ParticleDefinition *geantino;
-	G4ParticleDefinition *electron;
-	G4ParticleDefinition *positron;
-	G4ParticleDefinition *gamma;
-	G4ParticleDefinition *proton;
+	G4ParticleGun *particleGun{nullptr};
+	G4ParticleDefinition *geantino{nullptr};
+	G4ParticleDefinition *electron{nullptr};
+	G4ParticleDefinition *positron{nullptr};
+	G4ParticleDefinition *gamma{nullptr};
+	G4ParticleDefinition *proton{nullptr};
 };
 
 #endif /* MYPRIMARYGENERATORACTION_HH_ */

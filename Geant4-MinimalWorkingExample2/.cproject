@@ -37,6 +37,7 @@
 								<option id="gnu.cpp.compiler.option.other.other.1400469175" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -std=c++17 `geant4-config --cflags`" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1844177822" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/main/hdr}&quot;"/>
+									<listOptionValue builtIn="false" value="/Applications/GEANT4/geant4.10.03.p01-install/include/Geant4"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1932835303" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>

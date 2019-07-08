@@ -6,13 +6,11 @@
 class G4LogicalVolume;
 class G4VPhysicalVolume;
 class G4Material;
-
-#include "G4Box.hh"
+class G4Box;
 
 #include "G4SystemOfUnits.hh"
 #include "G4PhysicalConstants.hh"
 #include "globals.hh"
-
 #include "G4ThreeVector.hh"
 
 class MyDetectorConstruction: public G4VUserDetectorConstruction
@@ -24,10 +22,10 @@ public:
 
 private:
 	G4ThreeVector halfLabSize;
-	G4Box *solidLab = nullptr;
-	G4LogicalVolume *logicalLab = nullptr;
-	G4VPhysicalVolume *physicalLab = nullptr;
-	G4Material *labMaterial = nullptr;
+	G4Box *solidLab{nullptr};
+	G4LogicalVolume *logicalLab{nullptr};
+	G4VPhysicalVolume *physicalLab{nullptr};
+	G4Material *labMaterial{nullptr};
 
 	void DefineMaterials();
 	G4VPhysicalVolume* ConstructDetector();
